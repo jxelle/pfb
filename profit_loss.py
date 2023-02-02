@@ -4,7 +4,7 @@ import csv
 # define the profit loss function
 def profit_loss_function():
     """
-    - This function woudld read a CSV file and calcualte if there are any cash defetits and cash surplus  
+    - This function compute the difference in the net profit coloumn if the net profit on the current day is lower than the previous day.
     """
     
     # creating a file path to the csv file
