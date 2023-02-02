@@ -1,7 +1,7 @@
 from pathlib import Path 
 import csv
 
-
+# define COH function
 def cash_on_hand_function():
     """
     - This function will compute the difference in Cash-on-Hand if the current day is lower than the previous day.
